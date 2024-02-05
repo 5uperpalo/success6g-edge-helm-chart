@@ -1,0 +1,27 @@
+apiVersion: v2
+name: success6g-edge
+description: A Helm chart for SUCCESS6G edge pod 
+#icon: "https://avatars.githubusercontent.com/u/91567619?s=200&v=4"
+home: https://success-6g-project.cttc.es
+sources:
+  - https://github.com/5uperpalo/success6g-edge
+keywords:
+  - sustainable-computing
+  - v2x
+  - edge
+  - aiot
+  - iot
+annotations:
+  # artifacthub.io/links: |
+  #   - name: support
+  #     url: https://github.com/sustainable-computing-io/kepler/issues/new
+  #   - name: docs
+  #     url: https://sustainable-computing.io/
+  # artifacthub.io/license: "Apache-2.0"
+  # artifacthub.io/signKey: |
+  #   fingerprint: 91BF31657FB6BB5931CBFCF92A544B84946E3621
+  #   url: https://keybase.io/bradmccoydev/pgp_keys.asc 
+
+type: application
+version: 0.0.1
+appVersion: release-0.0.1

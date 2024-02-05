@@ -6,7 +6,7 @@ This repository is for the Helm chart for edge pod implementation in [SUCCESS6G]
 
 ## Publishing new Docker
 
-Repository includes a [DockerFile](https://github.com/5uperpalo/success6g-edge-helm-chart/edge_docker/Dockerfile)
+Repository includes a [DockerFile](/edge_docker/Dockerfile)
 ```
 cd edge_docker
 # build the image

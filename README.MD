@@ -4,6 +4,21 @@
 
 This repository is for the Helm chart for edge pod implementation in [SUCCESS6G](https://success-6g-project.cttc.es/) project.  We are using `gh-pages` branch to host and index the chart.  When modifying the chart please bump the version in the [Chart.yaml](/chart/edge/Chart.yaml) file.
 
+## Publishing new Docker
+
+Repository includes a [DockerFile](https://github.com/5uperpalo/success6g-edge-helm-chart/edge_docker/Dockerfile)
+```
+cd edge_docker
+# build the image
+docker build -t success6g-edge-pod .
+# correctly tag the image
+docker image tag success6g-edge-pod 5uperpalo/success6g-edge-pod:[TAG]
+# push the image to dockerhub
+docker push 5uperpalo/success6g-edge-pod:[TAG]
+```
+
+## Installing using Helm
+
 [Helm](https://helm.sh) must be installed to use the charts.
 Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 

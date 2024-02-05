@@ -25,4 +25,4 @@ Edge pod in SUCCESS6G project uses Redis database to receive vehicle On Board Un
 | --------------------- | --------------------------- | ----------- |
 | `service.annotations` | annotations for the service | `{}`        |
 | `service.type`        | the service type            | `ClusterIP` |
-| `service.port`        | the service port            | `6666`      |
+| `service.port`        | the service port            | `6379`      |
